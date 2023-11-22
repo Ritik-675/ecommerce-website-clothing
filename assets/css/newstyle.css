@@ -154,7 +154,7 @@
   }
   
   .title{
-    font-family: var(--fontFamily-clashDisplay);
+    /* font-family: var(--fontFamily-clashDisplay); */
     font-weight: var(--weight-semiBold);
     line-height: 1.2;
   }
@@ -305,7 +305,7 @@
   .logo{
     font-weight: var(--weight-Bold);
     font-size: var(--fontSize-7);
-    font-family: var(--fontFamily-clashDisplay);
+    /* font-family: var(--fontFamily-clashDisplay); */
   }
   
   .navbar .btn{
@@ -1365,3 +1365,17 @@
   footer{
     background-color: #F7D8D6 !important;
   }
+
+  /* .logo{
+    font-family: var(--fontFamily-clashDisplay) !important;
+    font-weight: var(--weight-Bold);
+    font-size: var(--fontSize-7);
+  }
+  .lh1{
+    font-family: var(--fontFamily-inter);
+    font-family: var(--fontFamily-clashDisplay) !important;
+    font-weight: var(--weight-Bold) !important;
+    font-size: var(--fontSize-7) !important;
+    font-family: var(--fontFamily-clashDisplay);
+  } */
+
