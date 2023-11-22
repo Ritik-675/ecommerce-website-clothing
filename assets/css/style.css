@@ -315,6 +315,7 @@ body {
   font-weight: var(--weight-Bold);
   font-size: var(--fontSize-7);
   font-family: var(--fontFamily-clashDisplay);
+  font-weight: 900 !important;
 }
 
 .navbar .btn{

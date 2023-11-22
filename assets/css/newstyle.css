@@ -1281,7 +1281,10 @@
   }
   
   
-  
+  .axz{
+    position: relative;
+    top: -6px;
+  }
   
   .im1{
     height: 516px;
@@ -1366,16 +1369,10 @@
     background-color: #F7D8D6 !important;
   }
 
-  /* .logo{
-    font-family: var(--fontFamily-clashDisplay) !important;
-    font-weight: var(--weight-Bold);
-    font-size: var(--fontSize-7);
-  }
-  .lh1{
-    font-family: var(--fontFamily-inter);
-    font-family: var(--fontFamily-clashDisplay) !important;
-    font-weight: var(--weight-Bold) !important;
-    font-size: var(--fontSize-7) !important;
-    font-family: var(--fontFamily-clashDisplay);
-  } */
+  .logo{
+    /* font-size: var(--fontSize-7); */
+    font-weight: 700;
+    line-height: 0.5;
+    font-size: 20px;
 
+  }
