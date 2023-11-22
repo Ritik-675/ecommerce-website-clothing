@@ -4,7 +4,7 @@
 }
 .desktop-18 {
   background: #ffffff;
-  width: 1440px;
+  width: 1510px;
   height: 2604px;
   position: relative;
   overflow: hidden;
@@ -342,7 +342,7 @@
   text-align: left;
   font: 400 16px/25px "Inter-Regular", sans-serif;
   position: absolute;
-  left: 0px;
+  left: -31px;
   top: 131px;
   width: 507px;
   height: 52px;
@@ -353,10 +353,10 @@
 .heading-2-description {
   color: #000000;
   text-align: left;
-  font: 700 30px "Inter-Bold", sans-serif;
+  font: 700 30px "Kanit-Bold", sans-serif;
   position: absolute;
-  left: 113px;
-  top: 898px;
+  left: 116px;
+  top: 899px;
   width: 192px;
   height: 30px;
   display: flex;
@@ -367,13 +367,13 @@
   width: 1200px;
   height: 616.38px;
   position: absolute;
-  left: calc(50% - 606px);
+  left: calc(50% - 639px);
   top: 1201px;
 }
 .heading-1-best-selling {
   color: #000000;
   text-align: left;
-  font: 700 30px "Inter-Bold", sans-serif;
+  font: 700 30px "Kanit-Bold", sans-serif;
   position: absolute;
   left: 0px;
   top: 2px;
@@ -753,7 +753,7 @@
   position: absolute;
   left: 16px;
   top: 0px;
-  width: 100.79px;
+  width: 114px;
   height: 34px;
   display: flex;
   align-items: center;

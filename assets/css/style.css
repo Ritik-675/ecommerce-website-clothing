@@ -1345,3 +1345,7 @@ address.footer-text{
 
 /* dvucfbicdn */
 
+.footer{
+  position: relative;
+  top: 500px;
+}
