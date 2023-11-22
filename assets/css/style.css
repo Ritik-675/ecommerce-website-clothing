@@ -224,7 +224,16 @@ body {
 }
 
 .section{
-  padding-block: 75px;
+  /* padding-block: 75px 0px; */
+  /* padding-block-end: 40px; */
+}
+.sec1{
+  /* padding-block: 75px 0px; */
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+}
+.sec2{
+  padding-block-end: 50px;
 }
 
 .text-center{
@@ -1343,4 +1352,15 @@ address.footer-text{
 /* dvucfbicdn */
 .section .product{
   padding-bottom: 0;
+}
+
+.imop{
+  height: 200px;
+}
+
+.ima{
+  height: 516px;
+}
+.imb{
+  height: 516px;
 }
