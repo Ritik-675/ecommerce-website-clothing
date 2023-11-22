@@ -1,642 +1,1026 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, ititial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, ititial-scale=1.0" />
     <!--
         - primary meta tags
     -->
     <title>responsive ecommerce clothing website</title>
-    <meta name="title" content="responsive ecommerce clothing website">
-    <meta name="description" content="This is an eCommerce html index made for clothing website">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="title" content="responsive ecommerce clothing website" />
+    <meta
+      name="description"
+      content="This is an eCommerce html index made for clothing website"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!--
         - favicon
     -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/svg+xml">
+    <link rel="shortcut icon" href="favicon.ico" type="image/svg+xml" />
 
     <!--
         - google font link
     -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/fonts/font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/fonts/font.css" />
 
     <!--
         - swiper css
     -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--
         - custom css links
     -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!--
         - preload images
     -->
-    <link rel="preload" as="image" href="assets/image/hero-banner3.png">
-</head>
-<body>
-
+    <link rel="preload" as="image" href="assets/image/hero-banner3.png" />
+  </head>
+  <body>
     <!--
         - #HEADER
     -->
 
     <header class="header" data-header>
-        <div class="container">
-            <a href="#" class="logo">Shop.Style</a>
+      <div class="container">
+        <a href="#" class="logo">Shop.Style</a>
 
-            <nav class="navbar" data-navbar>
-                <ul class="navbar-list">
-                    <li>
-                        <a href="#" class="navbar-link">Home</a>
-                    </li>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
 
-                    <li>
-                        <a href="#new" class="navbar-link">New</a>
-                    </li>
+            <li>
+              <a href="#new" class="navbar-link">New</a>
+            </li>
 
-                    <li>
-                        <a href="#featured" class="navbar-link">Featured</a>
-                    </li>
+            <li>
+              <a href="#featured" class="navbar-link">Featured</a>
+            </li>
 
-                    <li>
-                        <a href="#" class="navbar-link">Shop</a>
-                    </li>
-                </ul>
+            <li>
+              <a href="#" class="navbar-link">Shop</a>
+            </li>
+          </ul>
 
-                <button class="card-btn">
-                    <box-icon name='shopping-bag' aria-hidden="true"></box-icon>
-                    <span class="span">Cart</span>
-                </button>
+          <button class="card-btn">
+            <box-icon name="shopping-bag" aria-hidden="true"></box-icon>
+            <span class="span">Cart</span>
+          </button>
 
-                <a href="#" class="btn">Contact Us</a>
-            </nav>
+          <a href="#" class="btn">Contact Us</a>
+        </nav>
 
-            <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
-                <box-icon name='menu' aria-hidden="true"></box-icon>
-            </button>
-        </div>
+        <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+          <box-icon name="menu" aria-hidden="true"></box-icon>
+        </button>
+      </div>
     </header>
 
     <main>
-        <article>
-
-            <!--
+      <article>
+        <!--
                 - #HERO
             -->
 
-            <div class="hero">
-                <div class="container">
-                    <div class="hero-content">
+        <div class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title title">Women's Collection</h1>
 
-                        <h1 class="h1 hero-title title">Women's Collection</h1>
+              <p class="hero-text">
+                Style meets comfort: Unleash your inner coziness!
+              </p>
 
-                        <p class="hero-text">
-                            Style meets comfort: Unleash your inner coziness!
-                        </p>
-
-                        <a href="#" class="btn btn-primary">
-                            <span class="span">Shop Now</span>
-                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                        </a>
-                    </div>
-
-                    <div class="hero-banner">
-                        <figure class="img-holder" style="--width: 704; --height: 700;">
-                            <img src="https://i.pinimg.com/564x/49/33/7b/49337b609585a65fc47e732a797abf05.jpg" width="704" height="700"
-                             alt="hero banner" class="img-cover">
-                        </figure>
-
-                        <img src="assets/image/hero-shape-1.png" width="255" height="249" 
-                        alt="shape" class="shape shape-1">
-                    </div>
-
-                    <img src="assets/image/hero-shape-2.png" width="360" height="133" 
-                        alt="shape" class="shape shape-2">
-
-                </div>
+              <a href="#" class="btn btn-primary">
+                <span class="span">Shop Now</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
             </div>
 
+            <div class="hero-banner">
+              <figure class="img-holder" style="--width: 704; --height: 700">
+                <img
+                  src="https://i.pinimg.com/564x/49/33/7b/49337b609585a65fc47e732a797abf05.jpg"
+                  width="704"
+                  height="700"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </figure>
 
-            <!--
+              <img
+                src="assets/image/hero-shape-1.png"
+                width="255"
+                height="249"
+                alt="shape"
+                class="shape shape-1"
+              />
+            </div>
+
+            <img
+              src="assets/image/hero-shape-2.png"
+              width="360"
+              height="133"
+              alt="shape"
+              class="shape shape-2"
+            />
+          </div>
+        </div>
+
+        <!--
                 - # NEW PRODUCTS
             -->
 
-            <section class="section product" aria-label="prodct" id="new">
-                <div class="container">
-                    <h2 class="h2 section-title title text-center">Explore new arrivals</h2>
+        <section class="section product" aria-label="prodct" id="new">
+          <div class="container">
+            <h2 class="h2 section-title title text-center">
+              Explore new arrivals
+            </h2>
 
-                    <ul class="product-list has-scrollbar">
-                        
-                        <li class="scrollbar-item">
-                            <div class="product-card text-center">
+            <ul class="product-list has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://i.pinimg.com/564x/84/ce/69/84ce69538704dfc4c51876ed3b0c89d5.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Short Sleeve Shirt 01"
+                        class="img-cover"
+                      />
+                    </figure>
 
-                                <div class="card-banner">
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add to Card</span>
+                    </a>
+                  </div>
 
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="https://i.pinimg.com/564x/84/ce/69/84ce69538704dfc4c51876ed3b0c89d5.jpg" width="448" height="470" 
-                                        loading="lazy" alt="Short Sleeve Shirt 01" class="img-cover">
-                                    </figure>
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Short Sleeve Shirt 01</a>
+                    </h3>
 
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add to Card</span>
-                                    </a>
-
-                                </div>
-
-                                <div class="card-content">
-
-                                    <h3 class="h4 title">
-                                        <a href="#" class="card-title">Short Sleeve Shirt 01</a>
-                                    </h3>
-
-                                    <span class="price">$100.00</span>
-
-                                </div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="scrollbar-item">
-                            <div class="product-card text-center">
-
-                                <div class="card-banner">
-
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-4.jpg" width="448" height="470" 
-                                        loading="lazy" alt="Short Sleeve Shirt 02" class="img-cover">
-                                    </figure>
-
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add to Card</span>
-                                    </a>
-
-                                </div>
-
-                                <div class="card-content">
-
-                                    <h3 class="h4 title">
-                                        <a href="#" class="card-title">Short Sleeve Shirt 02</a>
-                                    </h3>
-
-                                    <span class="price">$100.00</span>
-
-                                </div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="scrollbar-item">
-                            <div class="product-card text-center">
-
-                                <div class="card-banner">
-
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-8.jpg" width="448" height="470" 
-                                        loading="lazy" alt="Comfort Dress" class="img-cover">
-                                    </figure>
-
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add to Card</span>
-                                    </a>
-
-                                </div>
-
-                                <div class="card-content">
-
-                                    <h3 class="h4 title">
-                                        <a href="#" class="card-title">Comfort Dress</a>
-                                    </h3>
-
-                                    <span class="price">$180.00</span>
-
-                                </div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="scrollbar-item">
-                            <div class="product-card text-center">
-
-                                <div class="card-banner">
-
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-6.jpg" width="448" height="470" 
-                                        loading="lazy" alt="Tote Bag" class="img-cover">
-                                    </figure>
-
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add to Card</span>
-                                    </a>
-
-                                </div>
-
-                                <div class="card-content">
-
-                                    <h3 class="h4 title">
-                                        <a href="#" class="card-title">Tote Bag</a>
-                                    </h3>
-
-                                    <span class="price">$50.00</span>
-
-                                </div>
-
-                            </div>
-
-                        </li>
-
-                    </ul>
+                    <span class="price">₹100.00</span>
+                  </div>
                 </div>
-            </section>
-            <!--
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-4.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Short Sleeve Shirt 02"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add to Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Short Sleeve Shirt 02</a>
+                    </h3>
+
+                    <span class="price">₹100.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-8.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Comfort Dress"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add to Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Comfort Dress</a>
+                    </h3>
+
+                    <span class="price">₹180.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-6.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Tote Bag"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add to Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Tote Bag</a>
+                    </h3>
+
+                    <span class="price">₹50.00</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--
                 - #FEATURED
             -->
 
-            <section class="section feature" aria-label="feature-label" id="featured">
-                <div class="container">
-                    <h2 class="h2 section-title title text-center" id="feature-label">
-                        Featured products
-                    </h2>
+        <section
+          class="section feature"
+          aria-label="feature-label"
+          id="featured"
+        >
+          <div class="container">
+            <h2 class="h2 section-title title text-center" id="feature-label">
+              Featured products
+            </h2>
 
-                    <ul class="feature-list">
+            <ul class="feature-list">
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder im1"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://i.pinimg.com/564x/8e/56/bf/8e56bf5a75d9fdad8c01fc922e63d474.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Men Summer Set"
+                        class="img-cover"
+                      />
+                    </figure>
 
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder im1" style="--width: 448; --height: 470;">
-                                        <img  src="https://i.pinimg.com/564x/8e/56/bf/8e56bf5a75d9fdad8c01fc922e63d474.jpg" width="448" height="470"
-                                        loading="lazy" alt="Men Summer Set" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
 
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Women Summer Set</a>
-                                    </h3>
-                                    <span class="price">$200.00</span>
-                                </div>
-                            </div>                   
-                        </li>
-    
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-10.jpg" width="448" height="400"
-                                        loading="lazy" alt="Women Summer Set" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Women Summer Set</a>
-                                    </h3>
-                                    <span class="price">$200.00</span>
-                                </div>
-                            </div>                       
-                        </li>
-    
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-13.jpg" width="448" height="470"
-                                        loading="lazy" alt="Comfort Dress" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Comfort Dress</a>
-                                    </h3>
-                                    <span class="price">$150.00</span>
-                                </div>
-                            </div>                           
-                        </li>
-    
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-5.jpg" width="448" height="470"
-                                        loading="lazy" alt="Comfort Scirt" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Comfort Scirt</a>
-                                    </h3>
-                                    <span class="price">$110.00</span>
-                                </div>
-                            </div>
-                        </li>
-    
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-9.jpg" width="448" height="470"
-                                        loading="lazy" alt="Flower Dress" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Flower Dress</a>
-                                    </h3>
-                                    <span class="price">$170.00</span>
-                                </div>
-                            </div> 
-                        </li>
-    
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder im1" style="--width: 448; --height: 470;">
-                                        <img src="https://i.pinimg.com/564x/0f/9b/19/0f9b1991fb55c14cc47aace7cc45b574.jpg" width="448" height="470"
-                                        loading="lazy" alt="Comfort Hoodie" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Comfort Hoodie</a>
-                                    </h3>
-                                    <span class="price">$170.00</span>
-                                </div>
-                            </div>                            
-                        </li>
-    
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-2.jpg" width="448" height="470"
-                                        loading="lazy" alt="Comfort Long Sleeve" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Comfort Long Sleeve</a>
-                                    </h3>
-                                    <span class="price">$120.00</span>
-                                </div>
-                            </div>        
-                        </li>
-
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder im1" style="--width: 448; --height: 470;">
-                                        <img src="https://i.pinimg.com/564x/be/77/43/be7743cbb6cb763e7231d28310cf5c65.jpg" width="448" height="470"
-                                        loading="lazy" alt="Men Oxford Shirt" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Women Oxford Shirt</a>
-                                    </h3>
-                                    <span class="price">$110.00</span>
-                                </div>
-                            </div>        
-                        </li>
-
-                        <li>
-                            <div class="product-card text-center">
-                                <div class="card-banner">
-                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
-                                        <img src="assets/image/product-6.jpg" width="448" height="470"
-                                        loading="lazy" alt="Tote Bag" class="img-cover">
-                                    </figure>
-    
-                                    <a href="#" class="btn product-btn">
-                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
-                                        <span class="span">Add To Card</span>
-                                    </a>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 title">
-                                        <a href="#" class="card-title">Tote Bag </a>
-                                    </h3>
-                                    <span class="price">$50.00</span>
-                                </div>
-                            </div>        
-                        </li>
-    
-                    </ul>
-    
-                    <a href="#" class="btn btn-secondary">View All Products</a>
-                    
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Women Summer Set</a>
+                    </h3>
+                    <span class="price">₹200.00</span>
+                  </div>
                 </div>
+              </li>
 
-            </section>
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-10.jpg"
+                        width="448"
+                        height="400"
+                        loading="lazy"
+                        alt="Women Summer Set"
+                        class="img-cover"
+                      />
+                    </figure>
 
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
 
-            <!--
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Women Summer Set</a>
+                    </h3>
+                    <span class="price">₹200.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-13.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Comfort Dress"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Comfort Dress</a>
+                    </h3>
+                    <span class="price">₹150.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-5.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Comfort Scirt"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Comfort Scirt</a>
+                    </h3>
+                    <span class="price">₹110.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-9.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Flower Dress"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Flower Dress</a>
+                    </h3>
+                    <span class="price">₹170.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder im1"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://i.pinimg.com/564x/0f/9b/19/0f9b1991fb55c14cc47aace7cc45b574.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Comfort Hoodie"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Comfort Hoodie</a>
+                    </h3>
+                    <span class="price">₹170.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-2.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Comfort Long Sleeve"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Comfort Long Sleeve</a>
+                    </h3>
+                    <span class="price">₹120.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder im1"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://i.pinimg.com/564x/be/77/43/be7743cbb6cb763e7231d28310cf5c65.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Men Oxford Shirt"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Women Oxford Shirt</a>
+                    </h3>
+                    <span class="price">₹110.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="assets/image/product-6.jpg"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Tote Bag"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                      <span class="span">Add To Card</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Tote Bag </a>
+                    </h3>
+                    <span class="price">₹50.00</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-secondary">View All Products</a>
+          </div>
+        </section>
+
+        <!--
                 #OFFER
             -->
 
-            <section class="offer has-bg-image" style="background-image: url('assets/image/hero-banner4.jpg');">
-                <div class="container-offer">
-                    <div class="offer-card">
-                        <h2 class="title card-title">
-                            Sale
-                        </h2>
+        <section
+          class="offer has-bg-image"
+          style="background-image: url('assets/image/hero-banner4.jpg')"
+        >
+          <div class="container-offer">
+            <div class="offer-card">
+              <h2 class="title card-title">Sale</h2>
 
-                        <p class="card-text">
-                            Up to 20% off
-                        </p>
+              <p class="card-text">Up to 20% off</p>
 
-                        <a href="#" class="btn btn-secondary">
-                            <span class="span">Shop Now</span>
+              <a href="#" class="btn btn-secondary">
+                <span class="span">Shop Now</span>
 
-                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-        </article> 
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </section>
+      </article>
     </main>
 
+    <!-- Review Block -->
+    <div class="frame-65">
+      <div class="our-happy-customers">OUR HAPPY CUSTOMERS</div>
+      <div class="frame-22">
+        <div class="frame-30">
+          <div class="frame-29">
+            <svg
+              class="frame-10"
+              width="139"
+              height="23"
+              viewBox="0 0 139 23"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M40.3549 0L43.5534 6.8872L51.0919 7.80085L45.5301 12.971L46.9907 20.4229L40.3549 16.731L33.7191 20.4229L35.1797 12.971L29.618 7.80085L37.1565 6.8872L40.3549 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M69.4213 0L72.6198 6.8872L80.1583 7.80085L74.5965 12.971L76.0571 20.4229L69.4213 16.731L62.7855 20.4229L64.2461 12.971L58.6844 7.80085L66.2229 6.8872L69.4213 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M98.4868 0L101.685 6.8872L109.224 7.80085L103.662 12.971L105.123 20.4229L98.4868 16.731L91.851 20.4229L93.3116 12.971L87.7498 7.80085L95.2883 6.8872L98.4868 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M127.552 0L130.751 6.8872L138.289 7.80085L132.727 12.971L134.188 20.4229L127.552 16.731L120.916 20.4229L122.377 12.971L116.815 7.80085L124.354 6.8872L127.552 0Z"
+                fill="#FFC633"
+              />
+            </svg>
+
+            <div class="frame-28">
+              <div class="frame-31">
+                <div class="sarah-m">Sarah M.</div>
+                <svg
+                  class="frame"
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 2.8291C10.0716 2.8291 8.18657 3.40093 6.58319 4.47227C4.97982 5.54362 3.73013 7.06636 2.99218 8.84794C2.25422 10.6295 2.06114 12.5899 2.43735 14.4812C2.81355 16.3725 3.74215 18.1098 5.10571 19.4734C6.46928 20.837 8.20656 21.7656 10.0979 22.1418C11.9892 22.518 13.9496 22.3249 15.7312 21.5869C17.5127 20.849 19.0355 19.5993 20.1068 17.9959C21.1782 16.3925 21.75 14.5075 21.75 12.5791C21.7473 9.99408 20.7192 7.51571 18.8913 5.68783C17.0634 3.85994 14.585 2.83183 12 2.8291ZM16.2806 10.8597L11.0306 16.1097C10.961 16.1795 10.8783 16.2348 10.7872 16.2725C10.6962 16.3103 10.5986 16.3297 10.5 16.3297C10.4014 16.3297 10.3038 16.3103 10.2128 16.2725C10.1218 16.2348 10.039 16.1795 9.96938 16.1097L7.71938 13.8597C7.57865 13.719 7.49959 13.5281 7.49959 13.3291C7.49959 13.1301 7.57865 12.9392 7.71938 12.7985C7.86011 12.6577 8.05098 12.5787 8.25 12.5787C8.44903 12.5787 8.6399 12.6577 8.78063 12.7985L10.5 14.5188L15.2194 9.79848C15.2891 9.72879 15.3718 9.67352 15.4628 9.63581C15.5539 9.59809 15.6515 9.57868 15.75 9.57868C15.8486 9.57868 15.9461 9.59809 16.0372 9.63581C16.1282 9.67352 16.2109 9.72879 16.2806 9.79848C16.3503 9.86816 16.4056 9.95088 16.4433 10.0419C16.481 10.133 16.5004 10.2306 16.5004 10.3291C16.5004 10.4276 16.481 10.5252 16.4433 10.6163C16.4056 10.7073 16.3503 10.79 16.2806 10.8597Z"
+                    fill="#01AB31"
+                  />
+                </svg>
+              </div>
+              <div
+                class="i-m-blown-away-by-the-quality-and-style-of-the-clothes-i-received-from-foof-style-from-casual-wear-to-elegant-dresses-every-piece-i-ve-bought-has-exceeded-my-expectations"
+              >
+                &quot;I&#039;m blown away by the quality and style of the
+                clothes I received from Foof.Style. From casual wear to elegant
+                dresses, every piece I&#039;ve bought has exceeded my
+                expectations.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-63">
+        <div class="frame-30">
+          <div class="frame-29">
+            <svg
+              class="frame-102"
+              width="138.842041015625"
+              height="22.5789852142334"
+            ></svg>
+            <div class="frame-28">
+              <div class="frame-31">
+                <div class="sarah-m">Sarah M.</div>
+                <svg class="frame2" width="24" height="24"></svg>
+              </div>
+              <div
+                class="i-m-blown-away-by-the-quality-and-style-of-the-clothes-i-received-from-shop-co-from-casual-wear-to-elegant-dresses-every-piece-i-ve-bought-has-exceeded-my-expectations"
+              >
+                &quot;I&#039;m blown away by the quality and style of the
+                clothes I received from Shop.co. From casual wear to elegant
+                dresses, every piece I&#039;ve bought has exceeded my
+                expectations.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-61">
+        <div class="frame-30">
+          <div class="frame-29">
+            <svg
+              class="frame-103"
+              width="139"
+              height="23"
+              viewBox="0 0 139 23"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M40.3549 0L43.5534 6.8872L51.0919 7.80085L45.5301 12.971L46.9907 20.4229L40.3549 16.731L33.7191 20.4229L35.1797 12.971L29.618 7.80085L37.1565 6.8872L40.3549 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M69.4213 0L72.6198 6.8872L80.1583 7.80085L74.5965 12.971L76.0571 20.4229L69.4213 16.731L62.7855 20.4229L64.2461 12.971L58.6844 7.80085L66.2229 6.8872L69.4213 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M98.4868 0L101.685 6.8872L109.224 7.80085L103.662 12.971L105.123 20.4229L98.4868 16.731L91.851 20.4229L93.3116 12.971L87.7498 7.80085L95.2883 6.8872L98.4868 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M127.552 0L130.751 6.8872L138.289 7.80085L132.727 12.971L134.188 20.4229L127.552 16.731L120.916 20.4229L122.377 12.971L116.815 7.80085L124.354 6.8872L127.552 0Z"
+                fill="#FFC633"
+              />
+            </svg>
+
+            <div class="frame-28">
+              <div class="frame-31">
+                <div class="alex-k">Alex K.</div>
+                <svg
+                  class="frame3"
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 2.8291C10.0716 2.8291 8.18657 3.40093 6.58319 4.47227C4.97982 5.54362 3.73013 7.06636 2.99218 8.84794C2.25422 10.6295 2.06114 12.5899 2.43735 14.4812C2.81355 16.3725 3.74215 18.1098 5.10571 19.4734C6.46928 20.837 8.20656 21.7656 10.0979 22.1418C11.9892 22.518 13.9496 22.3249 15.7312 21.5869C17.5127 20.849 19.0355 19.5993 20.1068 17.9959C21.1782 16.3925 21.75 14.5075 21.75 12.5791C21.7473 9.99408 20.7192 7.51571 18.8913 5.68783C17.0634 3.85994 14.585 2.83183 12 2.8291ZM16.2806 10.8597L11.0306 16.1097C10.961 16.1795 10.8783 16.2348 10.7872 16.2725C10.6962 16.3103 10.5986 16.3297 10.5 16.3297C10.4014 16.3297 10.3038 16.3103 10.2128 16.2725C10.1218 16.2348 10.039 16.1795 9.96938 16.1097L7.71938 13.8597C7.57865 13.719 7.49959 13.5281 7.49959 13.3291C7.49959 13.1301 7.57865 12.9392 7.71938 12.7985C7.86011 12.6577 8.05098 12.5787 8.25 12.5787C8.44903 12.5787 8.6399 12.6577 8.78063 12.7985L10.5 14.5188L15.2194 9.79848C15.2891 9.72879 15.3718 9.67352 15.4628 9.63581C15.5539 9.59809 15.6515 9.57868 15.75 9.57868C15.8486 9.57868 15.9461 9.59809 16.0372 9.63581C16.1282 9.67352 16.2109 9.72879 16.2806 9.79848C16.3503 9.86816 16.4056 9.95088 16.4433 10.0419C16.481 10.133 16.5004 10.2306 16.5004 10.3291C16.5004 10.4276 16.481 10.5252 16.4433 10.6163C16.4056 10.7073 16.3503 10.79 16.2806 10.8597Z"
+                    fill="#01AB31"
+                  />
+                </svg>
+              </div>
+              <div
+                class="finding-clothes-that-align-with-my-personal-style-used-to-be-a-challenge-until-i-discovered-shop-co-the-range-of-options-they-offer-is-truly-remarkable-catering-to-a-variety-of-tastes-and-occasions"
+              >
+                &quot;Finding clothes that align with my personal style used to
+                be a challenge until I discovered Shop.co. The range of options
+                they offer is truly remarkable, catering to a variety of tastes
+                and occasions.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-62">
+        <div class="frame-30">
+          <div class="frame-29">
+            <svg
+              class="frame-104"
+              width="139"
+              height="23"
+              viewBox="0 0 139 23"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M40.3549 0L43.5534 6.8872L51.0919 7.80085L45.5301 12.971L46.9907 20.4229L40.3549 16.731L33.7191 20.4229L35.1797 12.971L29.618 7.80085L37.1565 6.8872L40.3549 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M69.4213 0L72.6198 6.8872L80.1583 7.80085L74.5965 12.971L76.0571 20.4229L69.4213 16.731L62.7855 20.4229L64.2461 12.971L58.6844 7.80085L66.2229 6.8872L69.4213 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M98.4868 0L101.685 6.8872L109.224 7.80085L103.662 12.971L105.123 20.4229L98.4868 16.731L91.851 20.4229L93.3116 12.971L87.7498 7.80085L95.2883 6.8872L98.4868 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M127.552 0L130.751 6.8872L138.289 7.80085L132.727 12.971L134.188 20.4229L127.552 16.731L120.916 20.4229L122.377 12.971L116.815 7.80085L124.354 6.8872L127.552 0Z"
+                fill="#FFC633"
+              />
+            </svg>
+
+            <div class="frame-28">
+              <div class="frame-31">
+                <div class="james-l">James L.</div>
+                <svg
+                  class="frame4"
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 2.8291C10.0716 2.8291 8.18657 3.40093 6.58319 4.47227C4.97982 5.54362 3.73013 7.06636 2.99218 8.84794C2.25422 10.6295 2.06114 12.5899 2.43735 14.4812C2.81355 16.3725 3.74215 18.1098 5.10571 19.4734C6.46928 20.837 8.20656 21.7656 10.0979 22.1418C11.9892 22.518 13.9496 22.3249 15.7312 21.5869C17.5127 20.849 19.0355 19.5993 20.1068 17.9959C21.1782 16.3925 21.75 14.5075 21.75 12.5791C21.7473 9.99408 20.7192 7.51571 18.8913 5.68783C17.0634 3.85994 14.585 2.83183 12 2.8291ZM16.2806 10.8597L11.0306 16.1097C10.961 16.1795 10.8783 16.2348 10.7872 16.2725C10.6962 16.3103 10.5986 16.3297 10.5 16.3297C10.4014 16.3297 10.3038 16.3103 10.2128 16.2725C10.1218 16.2348 10.039 16.1795 9.96938 16.1097L7.71938 13.8597C7.57865 13.719 7.49959 13.5281 7.49959 13.3291C7.49959 13.1301 7.57865 12.9392 7.71938 12.7985C7.86011 12.6577 8.05098 12.5787 8.25 12.5787C8.44903 12.5787 8.6399 12.6577 8.78063 12.7985L10.5 14.5188L15.2194 9.79848C15.2891 9.72879 15.3718 9.67352 15.4628 9.63581C15.5539 9.59809 15.6515 9.57868 15.75 9.57868C15.8486 9.57868 15.9461 9.59809 16.0372 9.63581C16.1282 9.67352 16.2109 9.72879 16.2806 9.79848C16.3503 9.86816 16.4056 9.95088 16.4433 10.0419C16.481 10.133 16.5004 10.2306 16.5004 10.3291C16.5004 10.4276 16.481 10.5252 16.4433 10.6163C16.4056 10.7073 16.3503 10.79 16.2806 10.8597Z"
+                    fill="#01AB31"
+                  />
+                </svg>
+              </div>
+              <div
+                class="as-someone-who-s-always-on-the-lookout-for-unique-fashion-pieces-i-m-thrilled-to-have-stumbled-upon-shop-co-the-selection-of-clothes-is-not-only-diverse-but-also-on-point-with-the-latest-trends"
+              >
+                &quot;As someone who&#039;s always on the lookout for unique
+                fashion pieces, I&#039;m thrilled to have stumbled upon Shop.co.
+                The selection of clothes is not only diverse but also on-point
+                with the latest trends.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-64">
+        <div class="frame-30">
+          <div class="frame-29">
+            <svg
+              class="frame-105"
+              width="48"
+              height="23"
+              viewBox="0 0 48 23"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z"
+                fill="#FFC633"
+              />
+              <path
+                d="M40.3549 0L43.5534 6.8872L51.0919 7.80085L45.5301 12.971L46.9907 20.4229L40.3549 16.731L33.7191 20.4229L35.1797 12.971L29.618 7.80085L37.1565 6.8872L40.3549 0Z"
+                fill="#FFC633"
+              />
+            </svg>
+
+            <div class="frame-28">
+              <div class="frame-31">
+                <div class="mooen">Mooen</div>
+                <svg class="frame5" width="24" height="24"></svg>
+              </div>
+              <div
+                class="as-someone-who-s-always-on-the-lookout-for-unique-fashion-pieces-i-m-thrilled-to-have-stumbled-upon-shop-co-the-selection-of-clothes-is-not-only-diverse-but-also-on-point-with-the-latest-trends"
+              >
+                &quot;As someone who&#039;s always on the lookout for unique
+                fashion pieces, I&#039;m thrilled to have stumbled upon Shop.co.
+                The selection of clothes is not only diverse but also on-point
+                with the latest trends.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg
+        class="arrow-down-bold-1"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14.2959 4.4541L21.0459 11.2041C21.1508 11.3086 21.234 11.4328 21.2908 11.5696C21.3476 11.7063 21.3768 11.8529 21.3768 12.001C21.3768 12.149 21.3476 12.2957 21.2908 12.4324C21.234 12.5691 21.1508 12.6933 21.0459 12.7979L14.2959 19.5479C14.0846 19.7592 13.7979 19.8779 13.4991 19.8779C13.2002 19.8779 12.9135 19.7592 12.7022 19.5479C12.4908 19.3365 12.3721 19.0499 12.3721 18.751C12.3721 18.4521 12.4908 18.1654 12.7022 17.9541L17.5313 13.125L3.75 13.125C3.45163 13.125 3.16548 13.0065 2.9545 12.7955C2.74353 12.5846 2.625 12.2984 2.625 12C2.625 11.7017 2.74353 11.4155 2.95451 11.2045C3.16548 10.9936 3.45163 10.875 3.75 10.875L17.5313 10.875L12.7012 6.04598C12.4899 5.83464 12.3712 5.54799 12.3712 5.2491C12.3712 4.95022 12.4899 4.66357 12.7012 4.45223C12.9126 4.24089 13.1992 4.12215 13.4981 4.12215C13.797 4.12215 14.0837 4.24089 14.295 4.45223L14.2959 4.4541Z"
+          fill="black"
+        />
+      </svg>
+
+      <svg
+        class="arrow-down-bold-2"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.70406 4.4541L2.95406 11.2041C2.84918 11.3086 2.76597 11.4328 2.70919 11.5696C2.6524 11.7063 2.62317 11.8529 2.62317 12.001C2.62317 12.149 2.6524 12.2957 2.70919 12.4324C2.76597 12.5691 2.84918 12.6933 2.95406 12.7979L9.70406 19.5479C9.91541 19.7592 10.2021 19.8779 10.5009 19.8779C10.7998 19.8779 11.0865 19.7592 11.2978 19.5479C11.5092 19.3365 11.6279 19.0499 11.6279 18.751C11.6279 18.4521 11.5092 18.1654 11.2978 17.9541L6.46875 13.125L20.25 13.125C20.5484 13.125 20.8345 13.0065 21.0455 12.7955C21.2565 12.5846 21.375 12.2984 21.375 12C21.375 11.7017 21.2565 11.4155 21.0455 11.2045C20.8345 10.9936 20.5484 10.875 20.25 10.875L6.46875 10.875L11.2988 6.04598C11.5101 5.83464 11.6288 5.54799 11.6288 5.2491C11.6288 4.95022 11.5101 4.66357 11.2988 4.45223C11.0874 4.24089 10.8008 4.12215 10.5019 4.12215C10.203 4.12215 9.91634 4.24089 9.705 4.45223L9.70406 4.4541Z"
+          fill="black"
+        />
+      </svg>
+    </div>
 
     <!--
         - #FOOTER
     -->
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-top">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo"> Shop.Style </a>
 
-                <div class="footer-brand">
-                    <a href="#" class="logo">
-                        Shop.Style
-                    </a>
+            <p class="footer-text">
+              Main factor that sets us apart competition allows deliver a
+              specialist business consultancy service applies its ranging
+              experience
+            </p>
 
-                    <p class="footer-text">
-                        Main factor that sets us apart competition allows deliver a specialist
-                        business consultancy service applies its ranging experience
-                    </p>
+            <ul class="social-list">
+              <li>
+                <a
+                  href="https://www.instagram.com/Shopstyle/"
+                  class="social-link"
+                >
+                  <box-icon name="instagram-alt" type="logo"></box-icon>
+                </a>
+              </li>
 
-                    <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <box-icon name="facebook-circle" type="logo"></box-icon>
+                </a>
+              </li>
 
-                        <li>
-                            <a href="https://www.instagram.com/Shopstyle/" class="social-link">
-                                <box-icon name='instagram-alt' type='logo' ></box-icon>
-                            </a>
-                        </li>
+              <li>
+                <a href="#" class="social-link">
+                  <box-icon name="twitter" type="logo"></box-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-                        <li>
-                            <a href="#" class="social-link">
-                                <box-icon name='facebook-circle' type='logo' ></box-icon>
-                            </a>
-                        </li>
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title title">Contact info</p>
 
-                        <li>
-                            <a href="#" class="social-link">
-                                <box-icon name='twitter' type='logo' ></box-icon>
-                            </a>
-                        </li>
+              <address class="footer-text">Kashan, Iran</address>
+            </li>
 
-                    </ul>
+            <li>
+              <a href="mailto:info.Shopstyle@support.com" class="email">
+                mailto: info.Shopstyle@support.com
+              </a>
+            </li>
 
-                </div>
+            <li>
+              <a href="+98 *** *** ****" class="email"> +98 *** *** **** </a>
+            </li>
+          </ul>
 
-                <ul class="footer-list">
-                    <li>
-                        <p class="footer-list-title title">
-                            Contact info
-                        </p>
+          <div class="footer-list">
+            <p class="footer-list-title title">Subscribe newsletter</p>
 
-                        <address class="footer-text">
-                            Kashan, Iran
-                        </address>
-                    </li>
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Enter your email address"
+              required
+              autocomplete="off"
+              class="input-field"
+            />
 
-                    <li>
-                        <a href="mailto:info.Shopstyle@support.com" class="email">
-                            mailto: info.Shopstyle@support.com
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="+98 *** *** ****" class="email">
-                            +98 *** *** ****
-                        </a>
-                    </li>
-                </ul>
-
-                <div class="footer-list">
-                    <p class="footer-list-title title">
-                        Subscribe newsletter
-                    </p>
-
-                    <input type="email" name="email_address" placeholder="Enter your email address"
-                    required autocomplete="off" class="input-field">
-
-                    <button class="btn btn-secondary">Subscribe</button>
-
-                </div>
-
-            </div>
-
-            <div class="footer-bottom">
-
-                <div class="wrapper">
-
-                    <div class="link-wrapper">
-                        <a href="#" class="footer-bottom-link">Portfolio</a>
-                        <a href="#" class="footer-bottom-link">Our Team</a>
-                        <a href="#" class="footer-bottom-link">Pricing Plan</a>
-                        <a href="#" class="footer-bottom-link">Services</a>
-                        <a href="#" class="footer-bottom-link">Contact Us</a>
-                    </div>
-
-                    <div class="link-wrapper">
-                        <a href="#" class="footer-bottom-link">Terms & Conditions</a>
-                        <a href="#" class="footer-bottom-link">Privacy Policy</a>
-                    </div>
-
-                </div>
-
-                <p class="copyright">
-                    &copy; 2023 Shop.Style, All Rights Reserved
-                </p>
-
-            </div>
-
-            <img src="assets/image/footer-shape-1.png" width="245" height="165"
-            loading="lazy" alt="shape" class="shape shape-1">
-
-            <img src="assets/image/footer-shape-2.png" width="138" height="316"
-            loading="lazy" alt="shape" class="shape shape-2">
-
-            <img src="assets/image/footer-shape-3.png" width="346" height="92"
-            loading="lazy" alt="shape" class="shape shape-3">
-
+            <button class="btn btn-secondary">Subscribe</button>
+          </div>
         </div>
 
+        <div class="footer-bottom">
+          <div class="wrapper">
+            <div class="link-wrapper">
+              <a href="#" class="footer-bottom-link">Portfolio</a>
+              <a href="#" class="footer-bottom-link">Our Team</a>
+              <a href="#" class="footer-bottom-link">Pricing Plan</a>
+              <a href="#" class="footer-bottom-link">Services</a>
+              <a href="#" class="footer-bottom-link">Contact Us</a>
+            </div>
+
+            <div class="link-wrapper">
+              <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </div>
+          </div>
+
+          <p class="copyright">&copy; 2023 Shop.Style, All Rights Reserved</p>
+        </div>
+
+        <img
+          src="assets/image/footer-shape-1.png"
+          width="245"
+          height="165"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-1"
+        />
+
+        <img
+          src="assets/image/footer-shape-2.png"
+          width="138"
+          height="316"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2"
+        />
+
+        <img
+          src="assets/image/footer-shape-3.png"
+          width="346"
+          height="92"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3"
+        />
+      </div>
     </footer>
-
-
 
     <!--
         - custom js link
@@ -652,7 +1036,5 @@
         - ionicon link
     -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-    
-</body>
+  </body>
 </html>
