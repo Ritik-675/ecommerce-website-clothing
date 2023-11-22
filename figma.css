@@ -774,3 +774,9 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.desktop-17{
+  margin-block-start: 140px !important;
+  margin-block-end: 80px;
+}
