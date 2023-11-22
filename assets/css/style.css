@@ -204,7 +204,7 @@ body {
 }
 
 .btn-primary:is(:hover, :focus-visible) {
-  color: var(--text-orange-crayola);
+  color: #FF5A7E;
 }
 
 .btn-secondary{
@@ -229,15 +229,20 @@ body {
 }
 .sec1{
   /* padding-block: 75px 0px; */
-  padding-block-start: 40px;
+  padding-block-start: 150px;
   padding-block-end: 40px;
 }
 .sec2{
+  padding-block-start: 110px;
   padding-block-end: 50px;
 }
 
 .text-center{
   text-align: center;
+}
+
+.txt21{
+  font-size: 6rem;
 }
 
 .section-title{
@@ -326,7 +331,7 @@ body {
 }
 
 .header.active{
-  background-color: #D5E6EE;
+  background-color: var(--bg-white);
   box-shadow: var(--shadow-1);
 }
 
@@ -345,7 +350,7 @@ body {
   top: 85px;
   left: 0;
   right: 0;
-  background-color: #D5E6EE;
+  background-color: #F7D8D6;
   max-height: 0;
   overflow: hidden;
   visibility: hidden;
@@ -434,7 +439,9 @@ body {
   margin-inline: auto;
 }
 
-
+.explrt{
+  font-size: 6rem;
+}
 
 /*-----------------------------------*\
   #OFFER
@@ -461,14 +468,16 @@ body {
   margin-block: 20px 45px;
 }
 
+
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
 
 .footer{
   position: relative;
-  background-color: #1F7981;
+  background-color: #F7D8D6;
   padding-block-start: 160px;
+  color: black !important;
 }
 
 .footer-top{
@@ -554,6 +563,9 @@ address.footer-text{
   font-weight: var(--weight-semiBold);
   text-transform: uppercase;
   transition: var(--transition-1);
+}
+.btnb{
+  background-color: #FF5A7E;
 }
 
 .footer-bottom-link:is(:hover, :focus-visible){color: #FC7940;}
@@ -1370,5 +1382,5 @@ address.footer-text{
 .arr1{
   position: relative;
   top: 430px;
-  left: 1430px;
+  left: 1420px;
 }
