@@ -326,7 +326,7 @@ body {
 }
 
 .header.active{
-  background-color: var(--bg-white);
+  background-color: #D5E6EE;
   box-shadow: var(--shadow-1);
 }
 
@@ -345,7 +345,7 @@ body {
   top: 85px;
   left: 0;
   right: 0;
-  background-color: var(--bg-white);
+  background-color: #D5E6EE;
   max-height: 0;
   overflow: hidden;
   visibility: hidden;
@@ -467,7 +467,7 @@ body {
 
 .footer{
   position: relative;
-  background-color: var(--bg-gainsboro);
+  background-color: #1F7981;
   padding-block-start: 160px;
 }
 
@@ -556,7 +556,7 @@ address.footer-text{
   transition: var(--transition-1);
 }
 
-.footer-bottom-link:is(:hover, :focus-visible){color: var(--text-orange-crayola);}
+.footer-bottom-link:is(:hover, :focus-visible){color: #FC7940;}
 
 .copyright{
   padding-block: 20px;
@@ -650,7 +650,10 @@ address.footer-text{
 }
 
 
-
+.footer{
+  color: white;
+  font-weight: ;
+}
 
 
 /**

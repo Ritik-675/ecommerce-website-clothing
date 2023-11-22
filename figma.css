@@ -389,6 +389,7 @@
   text-align: left;
   font: 400 16px "Inter-Regular", sans-serif;
   position: relative;
+  top: -17px;
 }
 .frame {
   flex-shrink: 0;
@@ -412,6 +413,7 @@
   text-align: left;
   font: 400 16px "Inter-Regular", sans-serif;
   position: relative;
+  top: -17px;
 }
 .frame2 {
   flex-shrink: 0;
@@ -426,6 +428,7 @@
   text-align: left;
   font: 400 16px "Inter-Regular", sans-serif;
   position: relative;
+  top: -17px;
 }
 .rectangle-23 {
   background: #f6f6f6;
