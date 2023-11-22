@@ -391,7 +391,7 @@
   height: 76px;
   position: absolute;
   left: calc(50% - 660px);
-  top: 51px;
+  top: 35px;
 }
 .link-foof-style {
   color: #121212;
@@ -584,6 +584,7 @@
   text-align: left;
   font: 400 16px "Inter-Regular", sans-serif;
   position: relative;
+  top: -16px;
 }
 .frame {
   flex-shrink: 0;
@@ -607,6 +608,7 @@
   text-align: left;
   font: 400 16px "Inter-Regular", sans-serif;
   position: relative;
+  top: -16px;
 }
 .frame2 {
   flex-shrink: 0;
@@ -621,6 +623,7 @@
   text-align: left;
   font: 400 16px "Inter-Regular", sans-serif;
   position: relative;
+  top: -16px;
 }
 .list-item-heading-3-link-men-summer-set {
   color: #121212;
@@ -1342,4 +1345,10 @@
   position: absolute;
   left: 0px;
   top: 28px;
+}
+
+
+.list-item-figure-product-11-jpg{
+    width: 410px;
+    height: 470px;
 }
